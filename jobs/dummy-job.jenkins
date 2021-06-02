@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 pipelineJob('dummy-job') {
-    displayName('Dummy job for testing')
+    displayName('Dummy job for testing 2')
 
     logRotator {
         numToKeep(10)

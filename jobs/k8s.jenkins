@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 pipelineJob('k8s-e2e') {
-    displayName('Kubernetes Plugin E2E Test')
+    displayName('Kubernetes Plugin E2E Test - tiago')
 
     logRotator {
         numToKeep(10)

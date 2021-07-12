@@ -20,6 +20,7 @@ pipelineJob('dummyjob') {
                 git {
                     remote {
                         url('https://github.com/lip-casc/dummy-project')
+                        credentials('jenkins-incd@lip.pt')
                     }
                     branches('*/main')
                 }
